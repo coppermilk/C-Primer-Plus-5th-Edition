@@ -4,8 +4,9 @@ unsigned long factorial(int n);
 using namespace std;
 
 int main() {
-        cout << "Enter number: ";
         int number;
+        cout << "Enter number: ";
+        
         while (1) {
 
                 cin >> number;

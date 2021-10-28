@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Optional argument defaults to last
 void printing_line_is_equal_to_call_function_if_sec_param(char * ch, int n = 0);
 
 int main() {

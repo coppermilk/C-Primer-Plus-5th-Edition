@@ -23,6 +23,7 @@ int main() {
 
 }
 
+// In this function, we work with the structure by reference
 void fill(CandyBar & c,
         const char * n, double w, int cal) {
         strcpy(c.name, n);
@@ -30,6 +31,7 @@ void fill(CandyBar & c,
         c.callories = cal;
 }
 
+// In this function, we work with the structure by reference
 void show(CandyBar & c) {
         std::cout << c.name << " " << c.weight << " " << c.callories << std::endl;
 }

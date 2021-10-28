@@ -16,6 +16,7 @@ int main() {
         return 0;
 }
 
+// this function takes a string as a constant argument, and convert letters to uppercase
 void show(const string str) {
         for (int i = 0; str[i]; i++) {
                 cout << (char) toupper(str[i]);

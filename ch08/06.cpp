@@ -46,6 +46,6 @@ int main() {
 
         std::cout << maxN(dArray, sizeof(dArray)/sizeof(dArray[0])) << std::endl;
         std::cout << maxN(iArray, sizeof(iArray)/sizeof(iArray[0])) << std::endl;
-        std::cout << maxN(cArray, 4);
+        std::cout << maxN(cArray, sizeof(cArray)/sizeof(cArray[0]));
 
 }

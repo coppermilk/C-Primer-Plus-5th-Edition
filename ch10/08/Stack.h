@@ -1,5 +1,8 @@
 #pragma once#include <string>
 
+#ifndef STACK
+#define STACK
+
 class Stack {
         private:
                 enum {
@@ -21,3 +24,5 @@ class Stack {
 
         int getIndex();
 };
+
+#endif // STACK

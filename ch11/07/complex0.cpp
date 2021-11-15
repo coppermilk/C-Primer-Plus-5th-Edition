@@ -59,3 +59,4 @@ Complex operator*(const Complex& c1, double mult)
 {
     return Complex(mult * c1);
 }
+

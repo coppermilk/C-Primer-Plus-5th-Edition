@@ -60,13 +60,9 @@ Classic& Classic::operator = (const Classic& c) {
                 else {
                         label_name = new char[strlen(c.label_name) + 1];
                         strcpy(label_name, c.label_name);
-                }
-                
+                }    
         }
-        
-
         return *this;
-
 }
 
 void Classic::Report() const {
@@ -127,8 +123,6 @@ Cd::Cd(const Cd& d) {
                 label = new char[strlen(d.label) + 1];
                 strcpy(label, d.label);
         }
-
-
         selections = d.selections;
         playtime = d.playtime;
 }
@@ -151,8 +145,8 @@ Cd::~Cd() {
 void Cd::Report() const {
         std::cout << "Performers: " << performers << std::endl;
         std::cout << "Label: " << label << std::endl;
-        std::cout << "Selections: " << selections << std::endl; // êîëè÷åñòâî ñáîðíèêîâ
-        std::cout << "Playtime: " << playtime << std::endl; // âðåìÿ âîñïðîèçâåäåíèÿ â ìèíóòàõ
+        std::cout << "Selections: " << selections << std::endl; // ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã±Ã¡Ã®Ã°Ã­Ã¨ÃªÃ®Ã¢
+        std::cout << "Playtime: " << playtime << std::endl; // Ã¢Ã°Ã¥Ã¬Ã¿ Ã¢Ã®Ã±Ã¯Ã°Ã®Ã¨Ã§Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã¿ Ã¢ Ã¬Ã¨Ã­Ã³Ã²Ã Ãµ
 }
 
 Cd& Cd::operator = (const Cd& d) {
@@ -190,9 +184,7 @@ Cd& Cd::operator = (const Cd& d) {
                 //for (int i = 0; i < strlen(d.label) + 1; i++) {
                 //        label[i] = d.label[i];
                 //}
-
         }
-       
 
         selections = d.selections;
         playtime = d.playtime;

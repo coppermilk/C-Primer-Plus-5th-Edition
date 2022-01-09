@@ -30,3 +30,4 @@ public: Classic();
 };
 
 #endif // !CLASSIC_H_
+

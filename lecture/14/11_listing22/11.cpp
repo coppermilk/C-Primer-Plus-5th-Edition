@@ -39,7 +39,7 @@ int main() {
 	cout << "After create hfi2: ";
 	counts();
 
-	HasFriend<int>hfi3(10.5);
+	HasFriend<double>hfi3(10.5);
 	cout << "After create hfi3: ";
 	counts();
 
